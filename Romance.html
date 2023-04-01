@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Romance</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        background-image: url("https://live.staticflickr.com/7430/9962005676_8b27125b35_b.jpg");
+        background-size: cover;
+        backdrop-filter: blur(5px);
+      }
+      h3 {
+        color: antiquewhite;
+        font-size: 50px;
+        padding: 20px;
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+        -webkit-text-stroke: #000000 0.5px;
+      }
+      .photo-grid {
+        display: grid;
+        grid-template-columns: repeat(5, 2fr);
+        grid-gap: 30px;
+      }
+
+      .photo {
+        display: block;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        opacity: 1;
+        transition: opacity 0.2s ease-in-out;
+      }
+
+      .photo:hover {
+        opacity: 0.7;
+        transform: scale(1.1);
+        transition: transform 0.2s ease;
+      }
+
+      .navbar {
+        overflow: hidden;
+        background-color: #000000;
+        display: flex;
+        justify-content: space-between;
+        font-family: "Open Sans", sans-serif;
+      }
+
+      .navbar a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        color: antiquewhite;
+      }
+
+      .dropdown {
+        float: left;
+        overflow: hidden;
+        color: antiquewhite;
+      }
+
+      .dropdown .dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        margin: 0;
+        color: antiquewhite;
+      }
+
+      .navbar a:hover,
+      .dropdown:hover .dropbtn {
+        background-color: rgb(230, 87, 87);
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+      }
+
+      .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+
+      .dropdown-content a:hover {
+        background-color: #ddd;
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bg"></div>
+    <div class="navbar">
+      <img
+        src="https://i.pinimg.com/564x/26/ec/17/26ec1765de552156acbccb37865ebcd7.jpg"
+        alt="https://i.imgur.com/z7ITVrS.png"
+        width="100px"
+        height="50px"
+      />
+      <a href="index.html"><strong>Cinema Savvy</strong></a>
+      <div class="dropdown">
+        <button class="dropbtn">
+          <strong>Genres</strong>
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="Horror.html">Horror</a>
+          <a href="Romance.html">Romance</a>
+          <a href="War.html">War</a>
+          <a href="Action.html">Action</a>
+          <a href="Comedy.html">Comedy</a>
+        </div>
+      </div>
+    </div>
+    <h3 style="font-family: courier; color: white"><center>Romance</center></h3>
+    <div class="photo-grid">
+      <a href="https://www.imdb.com/title/tt0120338/?ref_=adv_li_tt"
+        ><img
+          src="https://i.pinimg.com/564x/30/aa/7c/30aa7c285fe9e25a74f7071d4b5755eb.jpg"
+          alt="Image 1"
+          class="photo"
+      /></a>
+      <a href="https://www.imdb.com/title/tt0116583/?ref_=nv_sr_srsg_1"
+        ><img
+          src="https://i.pinimg.com/564x/23/df/d9/23dfd94fc2e91ded91767b199a56b297.jpg"
+          alt="Image 2"
+          class="photo"
+      /></a>
+      <a href="https://www.imdb.com/title/tt1343092/?ref_=nv_sr_srsg_0"
+        ><img
+          src="https://i.pinimg.com/564x/df/2e/8c/df2e8ce5632552806a6740bffbbfa2ca.jpg"
+          alt="Image 3"
+          class="photo"
+      /></a>
+      <a href="https://www.imdb.com/title/tt1099212/?ref_=nv_sr_srsg_0"
+        ><img
+          src="https://i.pinimg.com/564x/d6/75/ae/d675ae0fc4c35c4243300939906aaff3.jpg"
+          alt="Image 4"
+          class="photo"
+      /></a>
+      <a href="https://www.imdb.com/title/tt2771200/?ref_=nv_sr_srsg_0"
+        ><img
+          src="https://i.pinimg.com/564x/36/3a/8c/363a8c8635f11249a7221a8681b17c51.jpg"
+          alt="Image 5"
+          class="photo"
+      /></a>
+      <a href="https://www.imdb.com/title/tt2013293/?ref_=nv_sr_srsg_0"
+        ><img
+          src="https://i.pinimg.com/564x/72/23/f1/7223f1aab59d9a150440549feba9df0f.jpg"
+          alt="Image 6"
+          class="photo"
+      /></a>
+      <a href="https://www.imdb.com/title/tt0347149/?ref_=nv_sr_srsg_0"
+        ><img
+          src="https://i.pinimg.com/564x/0b/c6/33/0bc633898ee3799c1b3aafc1be6c5ce3.jpg"
+          alt="Image 7"
+          class="photo"
+      /></a>
+      <a href="https://www.imdb.com/title/tt0113824/?ref_=nv_sr_srsg_0"
+        ><img
+          src="https://i.pinimg.com/564x/ed/d6/72/edd672bd362d308d06c821f57a8f3b46.jpg"
+          alt="Image 8"
+          class="photo"
+      /></a>
+      <a href="https://www.imdb.com/title/tt5311514/?ref_=fn_al_tt_1"
+        ><img
+          src="https://i.pinimg.com/564x/0a/57/f7/0a57f7fb9bf22d8b357affec4fc3ad03.jpg"
+          alt="Image 9"
+          class="photo"
+      /></a>
+      <a href="https://www.imdb.com/title/tt4769824/?ref_=nv_sr_srsg_0"
+        ><img
+          src="https://i.pinimg.com/564x/91/10/27/911027261ea50eccf646e0af8d1f8fe0.jpg"
+          alt="Image 10"
+          class="photo"
+      /></a>
+    </div>
+  </body>
+</html>

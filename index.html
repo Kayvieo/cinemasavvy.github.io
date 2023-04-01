@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+	<style>
+        * {
+      padding: 0;
+      margin: 0;
+    }   
+
+
+        .header nav {
+            position: relative;
+            height: 50px; 
+            position: absolute;
+            top: 30%;
+            left: 70%;
+            word-spacing: 20px;
+        }
+
+        .header nav a {
+            top: 30%;
+            left: 20%;
+            transform: translateY(-50%);
+            font-size: 20px;
+            color: antiquewhite;
+            text-decoration: none; 
+        } 
+
+		.header {
+    position: relative;
+    background-color: black;
+    color: white;
+    height: 70px;
+    text-align: center;
+    background-image: url('https://i.imgur.com/z7ITVrS.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 200px;
+}  
+
+
+        .header h1 {
+            margin: 0;
+            top: 13%;
+            left: 44%;
+            position: absolute;
+            background-color: black;
+           
+        }
+body {
+  background-image: url('https://live.staticflickr.com/7430/9962005676_8b27125b35_b.jpg');
+  background-size: cover;
+  backdrop-filter: blur(5px);
+} 
+
+		.photo-grid {
+			display: grid;
+			grid-template-columns: repeat(5, 2fr);
+			grid-gap: 20px;
+		}
+		
+		.photo {
+			display: block;
+			height: 100%;
+			width: 100%;
+			object-fit: cover;
+			opacity: 1;
+			transition: opacity 0.2s ease-in-out;
+		} 
+		
+		.photo:hover {
+  opacity: 0.7;
+  transform: scale(1.1); 
+  transition: transform 0.2s ease; 
+}
+
+    .footer {
+        position: relative;
+        background-color: black;
+        color: white;
+        height: 100px;
+        text-align: center;
+        background-image: url('https://i.imgur.com/z7ITVrS.png');
+        right: 0;
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 200px;
+    }
+    
+    * h1{
+        position: absolute;
+        left:0;
+    }
+
+    p {
+        position:absolute;
+        left:0;
+        padding-top: 3%;
+    }
+
+    
+
+
+	</style>
+</head>
+<body>
+	<div class="bg"></div>
+	<div class="header">
+    <a href="index.html"><strong>Cinema Savvy</strong></a>
+		<nav>
+
+        <ul>
+            <a href="Developer's choices.html">●Developer's Choices</a>
+
+        </ul>
+		</nav>
+        <nav></nav>
+	</div>
+	<h3 style="font-family:courier; color: white;"><center>‎ </center></h3><!--The code ‎ is for invisible -->
+	<div class="photo-grid">
+		
+		<a href="https://www.imdb.com/title/tt0137523/?ref_=nv_sr_srsg_0"><img src="https://i.pinimg.com/236x/f8/53/de/f853deaf53762d67e79332f0e923482a.jpg" alt="Image 5" class="photo"></a>
+		<a href="https://www.imdb.com/title/tt1913273/"><img src="https://wallpapers.com/images/hd/menma-and-the-squad-anohana-slwgdzieowjw90lh.jpg" alt="Image 6" class="photo"></a>
+		<a href="https://www.imdb.com/title/tt4633694/?ref_=nv_sr_srsg_0"><img src="https://i.pinimg.com/564x/74/64/09/7464094eed0a4c23e94ef63aa34e011b.jpg" alt="Image 7" class="photo"></a>
+		<a href="https://www.imdb.com/title/tt2013293/?ref_=nv_sr_srsg_0"><img src="https://i.pinimg.com/564x/d1/e4/ba/d1e4ba4703fe8780108dba3ff6b7f38e.jpg" alt="Image 8" class="photo"></a>
+		<a href="https://www.imdb.com/title/tt1187043/?ref_=fn_al_tt_1"><img src="https://i.pinimg.com/564x/19/6b/1d/196b1df28715b7757c1d6041f02556c4.jpg" alt="Image 9" class="photo"></a>
+		<a href="https://www.imdb.com/title/tt4769824/?ref_=nv_sr_srsg_0"><img src="https://i.pinimg.com/564x/92/0a/86/920a86c109ef5f3533973d5ea701ced8.jpg" alt="Image 10" class="photo"></a>
+        <a href="https://www.imdb.com/title/tt0159273/"><img src="https://m.media-amazon.com/images/M/MV5BYzUyOTE4MjktZmU2Ni00OWI5LWJmNGQtNDRkZGIzMjdiY2JiXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_FMjpg_UX1000_.jpg" alt="Image 1" class="photo"></a>
+		<a href="https://www.imdb.com/title/tt0094716/"> <img src="https://m.media-amazon.com/images/M/MV5BNjQ0ZDQwNGEtMjA3Yy00NmE0LThiMGItZGVjY2I3MGExYmRhXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg" alt="Image 2" class="photo"></a>
+		<a href="https://www.imdb.com/title/tt0265086/">
+            <img src="https://images.moviesanywhere.com/e5c5f38710c150636908c710e0981d22/f564a3fe-059f-4ed5-ab7a-b6eaea89b0ed.jpg" alt="Image 3" class="photo"></a>
+		<a href="https://www.imdb.com/title/tt1016150/?ref_=tt_mv_desc">
+            <img src="https://m.media-amazon.com/images/M/MV5BMzM4ZDJhYjYtZGY5Ny00NTk0LWI4ZTYtNjczZDFiMGI2ZjEzXkEyXkFqcGdeQXVyNjc5NjEzNA@@._V1_FMjpg_UX1000_.jpg" alt="Image 4" class="photo"></a>
+		<a href="https://www.imdb.com/title/tt0082096/">
+            <img src="https://pics.filmaffinity.com/The_Boat-792106068-large.jpg" alt="image 5" class="photo"></a>
+		<a href="https://www.imdb.com/title/tt6710474/?ref_=nv_sr_srsg_5"><img src="https://i.pinimg.com/236x/a5/ff/b0/a5ffb09e427e17512e774ac428749b83.jpg" alt="Image 1" class="photo"></a>
+		<a href="https://www.imdb.com/title/tt6751668/?ref_=nv_sr_srsg_0"><img src="https://i.pinimg.com/236x/30/a2/cb/30a2cbc7830110cd118272af60923148.jpg" alt="Image 2" class="photo"></a>
+		<a href="https://www.imdb.com/title/tt7286456/plotsummary/"><img src="https://i.pinimg.com/236x/99/f8/70/99f8702093bd74454c4636a33f558c4a.jpg" alt="Image 3" class="photo"></a>
+		<a href="https://www.imdb.com/title/tt7286456/?ref_=nv_sr_srsg_0"><img src="https://i.pinimg.com/236x/cf/c8/99/cfc899bbb210026bcb64c32ce80dd9ac.jpg" alt="Image 4" class="photo"></a><a href="https://www.imdb.com/title/tt3922798/"
+        ><img src="https://m.media-amazon.com/images/M/MV5BOTNkNTM4YWItOGE4Mi00N2YwLThhYjUtNDZhZDAwZGUxMGE1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg" alt="Image 6" class="photo"></a>
+		<a href="https://www.imdb.com/title/tt0078788/">
+            <img src="https://m.media-amazon.com/images/M/MV5BYmQyNTA1ZGItNjZjMi00NzFlLWEzMWEtNWMwN2Q2MjJhYzEyXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg" alt="Image 7" class="photo"></a>
+		<a href="https://www.imdb.com/title/tt0120815/">
+            <img src="https://m.media-amazon.com/images/M/MV5BZjhkMDM4MWItZTVjOC00ZDRhLThmYTAtM2I5NzBmNmNlMzI1XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_FMjpg_UX1000_.jpg" alt="Image 8" class="photo"></a>
+		<a href="https://www.imdb.com/title/tt2119532/">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjQ1NjM3MTUxNV5BMl5BanBnXkFtZTgwMDc5MTY5OTE@._V1_.jpg" alt="Image 9" class="photo"></a>
+		<a href="https://www.imdb.com/title/tt0066473/?ref_=vp_vi_tt_p">
+            <img src="https://images.moviesanywhere.com/3158b20e999db93138ad3fc42151c9dd/88e4ce6b-7c79-4a41-84f9-637d1c32d893.jpg" alt="Image 10" class="photo"></a>
+            <a href="https://www.imdb.com/title/tt0120338/?ref_=adv_li_tt"
+            ><img
+              src="https://i.pinimg.com/564x/30/aa/7c/30aa7c285fe9e25a74f7071d4b5755eb.jpg"
+              alt="Image 1"
+              class="photo"
+          /></a>
+          <a href="https://www.imdb.com/title/tt0116583/?ref_=nv_sr_srsg_1"
+            ><img
+              src="https://i.pinimg.com/564x/23/df/d9/23dfd94fc2e91ded91767b199a56b297.jpg"
+              alt="Image 2"
+              class="photo"
+          /></a>
+          <a href="https://www.imdb.com/title/tt1343092/?ref_=nv_sr_srsg_0"
+            ><img
+              src="https://i.pinimg.com/564x/df/2e/8c/df2e8ce5632552806a6740bffbbfa2ca.jpg"
+              alt="Image 3"
+              class="photo"
+          /></a>
+          <a href="https://www.imdb.com/title/tt1099212/?ref_=nv_sr_srsg_0"
+            ><img
+              src="https://i.pinimg.com/564x/d6/75/ae/d675ae0fc4c35c4243300939906aaff3.jpg"
+              alt="Image 4"
+              class="photo"
+          /></a>
+          <a href="https://www.imdb.com/title/tt2771200/?ref_=nv_sr_srsg_0"
+            ><img
+              src="https://i.pinimg.com/564x/36/3a/8c/363a8c8635f11249a7221a8681b17c51.jpg"
+              alt="Image 5"
+              class="photo"
+          /></a>
+          <a href="https://www.imdb.com/title/tt2013293/?ref_=nv_sr_srsg_0"
+            ><img
+              src="https://i.pinimg.com/564x/72/23/f1/7223f1aab59d9a150440549feba9df0f.jpg"
+              alt="Image 6"
+              class="photo"
+          /></a>
+          <a href="https://www.imdb.com/title/tt0347149/?ref_=nv_sr_srsg_0"
+            ><img
+              src="https://i.pinimg.com/564x/0b/c6/33/0bc633898ee3799c1b3aafc1be6c5ce3.jpg"
+              alt="Image 7"
+              class="photo"
+          /></a>
+          <a href="https://www.imdb.com/title/tt0113824/?ref_=nv_sr_srsg_0"
+            ><img
+              src="https://i.pinimg.com/564x/ed/d6/72/edd672bd362d308d06c821f57a8f3b46.jpg"
+              alt="Image 8"
+              class="photo"
+          /></a>          <a href="https://www.imdb.com/title/tt18968540/?ref_=nv_sr_srsg_0"><img src="https://m.media-amazon.com/images/M/MV5BYjUxZGI1ODQtMDljMS00ZTUwLWI0NTMtYjc2YmUyZTM3YTdhXkEyXkFqcGdeQXVyNTM2NTY4NzU@._V1_FMjpg_UX1000_.jpg" alt="Image 10" class="photo"></a>
+          <a href="https://www.imdb.com/title/tt5113044/?ref_=tt_mv_close"><img src="https://i.pinimg.com/564x/47/f5/d3/47f5d3f02528ac1a1062cf67dfb326f1.jpg" alt="Image 1" class="photo"></a>
+          <a href="https://www.imdb.com/title/tt0109686/?ref_=fn_al_tt_1"><img src="https://i.pinimg.com/564x/a4/d2/60/a4d2609c8891c860b52e37422506b5fc.jpg" alt="Image 2" class="photo"></a>
+            <a href="https://www.imdb.com/title/tt0117218/?ref_=tt_mv_close"><img src="https://i.pinimg.com/564x/64/98/cb/6498cb9f61d6d44ba70eea6cfe89e5b2.jpg" alt="Image 3" class="photo"></a>
+            <a href="https://www.imdb.com/title/tt3915174/?ref_=nv_sr_srsg_0"><img src="https://i.pinimg.com/564x/bf/2e/c7/bf2ec7525b2bd9d61064013db1b15d23.jpg" alt="Image 4" class="photo"></a>
+            <a href="https://www.imdb.com/title/tt1187043/?ref_=fn_al_tt_1"><img src="https://i.pinimg.com/564x/91/96/95/9196954f4ac7a6c3c2774c832d695223.jpg" alt="Image 5" class="photo"></a>
+          
+          <a href="https://www.imdb.com/title/tt5311514/?ref_=fn_al_tt_1"
+            ><img
+              src="https://i.pinimg.com/564x/0a/57/f7/0a57f7fb9bf22d8b357affec4fc3ad03.jpg"
+              alt="Image 9"
+              class="photo"
+          /></a>
+          <a href="https://www.imdb.com/title/tt4769824/?ref_=nv_sr_srsg_0"
+            ><img
+              src="https://i.pinimg.com/564x/91/10/27/911027261ea50eccf646e0af8d1f8fe0.jpg"
+              alt="Image 10"
+              class="photo"
+          /></a>
+          <a href="https://www.imdb.com/title/tt2184339/?ref_=fn_al_tt_1"><img src="https://m.media-amazon.com/images/M/MV5BMTQzNTcwODEyM15BMl5BanBnXkFtZTcwMjM1MDI0OQ@@._V1_.jpg" alt="Image 1" class="photo"></a>
+          <a href="https://www.imdb.com/title/tt21237578/?ref_=fn_al_tt_1"><img src="https://m.media-amazon.com/images/M/MV5BYTMzNjM4YWQtZjljNy00YmE5LWIxMDUtMmYwMjBmMzZhYjBhXkEyXkFqcGdeQXVyNTI5NjIyMw@@._V1_FMjpg_UX1000_.jpg" alt="Image 2" class="photo"></a>
+          <a href="https://www.imdb.com/title/tt2870612/?ref_=nv_sr_srsg_0"><img src="https://m.media-amazon.com/images/M/MV5BMTQzNzg0NDI2MF5BMl5BanBnXkFtZTgwMzgxNzY2MTE@._V1_FMjpg_UX1000_.jpg" alt="Image 3" class="photo"></a>
+          <a href="https://www.imdb.com/title/tt0120804/?ref_=nv_sr_srsg_0"><img src="https://m.media-amazon.com/images/M/MV5BZmI1ZGRhNDYtOGVjZC00MmUyLThlNTktMTQyZGE3MzE1ZTdlXkEyXkFqcGdeQXVyNDE5MTU2MDE@._V1_FMjpg_UX1000_.jpg" alt="Image 4" class="photo"></a>
+          <a href="https://www.imdb.com/title/tt11245972/?ref_=nv_sr_srsg_5"><img src="https://m.media-amazon.com/images/M/MV5BYjExYTcwYmYtMWY2Zi00MGJlLTk3YjUtZTU1Zjg4MDc0Y2FjXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg" alt="Image 5" class="photo"></a>
+          <a href="https://www.imdb.com/title/tt1396484/?ref_=fn_al_tt_1"><img src="https://m.media-amazon.com/images/M/MV5BZDVkZmI0YzAtNzdjYi00ZjhhLWE1ODEtMWMzMWMzNDA0NmQ4XkEyXkFqcGdeQXVyNzYzODM3Mzg@._V1_.jpg" alt="Image 6" class="photo"></a>
+          <a href="https://www.imdb.com/title/tt15474916/?ref_=nv_sr_srsg_0"><img src="https://m.media-amazon.com/images/M/MV5BYzczMDk1MDktMTgxNC00Zjc3LWI2YzUtZWRhNmRkZDIzZDQyXkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_.jpg" alt="Image 7" class="photo"></a>
+          <a href="https://www.imdb.com/title/tt9271672/?ref_=nv_sr_srsg_0"><img src="https://m.media-amazon.com/images/M/MV5BNzNjNmE4YTktMTZiNS00YTQ0LWExY2YtZTU2MGNiNzBiMzI5XkEyXkFqcGdeQXVyMTA0OTI1NDM2._V1_.jpg" alt="Image 8" class="photo"></a>
+          <a href="https://www.imdb.com/title/tt8850222/?ref_=nv_sr_srsg_0"><img src="https://m.media-amazon.com/images/M/MV5BOTFmZjgyMzQtYzYzMy00Yzg2LWI1MWEtNzI3Nzc2MzliYmY5XkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_.jpg" alt="Image 9" class="photo"></a>
+  <a href="https://www.imdb.com/title/tt14109724/?ref_=nv_sr_srsg_0"><img src="https://i.pinimg.com/564x/d7/3b/2e/d73b2edb7d9e74d5818e0631b6d04f49.jpg" alt="Image 6" class="photo"></a>
+   
+         <a href="https://www.imdb.com/title/tt11145118/?ref_=nv_sr_srsg_0"
+        ><img
+          src="https://m.media-amazon.com/images/M/MV5BYWY1ZDY4MmQtYjhiYS00N2QwLTk1NzgtOWI2YzUwZThjNDYwXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg"
+          alt="Image 8"
+          class="photo"
+      /></a>
+      <a href="https://www.imdb.com/title/tt0068646/?ref_=nv_sr_srsg_0"
+        ><img
+          src="https://img.fruugo.com/product/4/49/14441494_max.jpg"
+          alt="Image 9"
+          class="photo"
+      /></a>            <a href="https://www.imdb.com/title/tt9288046/?ref_=nv_sr_srsg_0"><img src="https://i.pinimg.com/564x/79/0f/d8/790fd8e4985e048026ab1a03faaacf8f.jpg" alt="Image 7" class="photo"></a>
+            <a href="https://www.imdb.com/title/tt6718170/?ref_=adv_li_tt"><img src="https://i.pinimg.com/564x/92/c7/d7/92c7d774962dbbdb94cb6261cd715b98.jpg" alt="Image 8" class="photo"></a>
+            <a href="https://www.imdb.com/title/tt10640346/?ref_=adv_li_tt"><img src="https://i.pinimg.com/564x/cb/fe/ed/cbfeed4e1a1a75c0e8d0ba9eb709363b.jpg" alt="Image 9" class="photo"></a>
+            <a href="https://www.imdb.com/title/tt0448115/?ref_=adv_li_tt"><img src="https://i.pinimg.com/564x/02/19/62/021962dbb6dbb3291b3d68a7d2348d1c.jpg" alt="Image 10" class="photo"></a>
+           <a href="https://www.imdb.com/title/tt11671006/"
+        ><img
+          src="https://m.media-amazon.com/images/M/MV5BZDM2YjA2ZjAtMmZmMy00NDhjLWJjYWYtYjc4ZGY0YzUzOTMyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
+          alt="Image 1"
+          class="photo"
+      /></a>
+      <a href="https://www.imdb.com/title/tt0133093/?ref_=tt_sims_tt_i_10"
+        ><img
+          src="https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"
+          alt="Image 10"
+          class="photo"
+      /></a> 
+      <a href="https://www.imdb.com/title/tt1877830/?ref_=ttls_li_tt"
+        ><img
+          src="https://m.media-amazon.com/images/M/MV5BMDdmMTBiNTYtMDIzNi00NGVlLWIzMDYtZTk3MTQ3NGQxZGEwXkEyXkFqcGdeQXVyMzMwOTU5MDk@._V1_FMjpg_UX1000_.jpg"
+          alt="Image 2"
+          class="photo"
+      /></a>
+      <a href="https://www.imdb.com/title/tt11138512/?ref_=ttls_li_tt"
+        ><img
+          src="https://m.media-amazon.com/images/M/MV5BMzVlMmY2NTctODgwOC00NDMzLWEzMWYtM2RiYmIyNTNhMTI0XkEyXkFqcGdeQXVyNTAzNzgwNTg@._V1_.jpg"
+          alt="Image 3"
+          class="photo"
+      /></a>
+      <a href="https://www.imdb.com/title/tt12593682/?ref_=ttls_li_tt"
+        ><img
+          src="https://magarila.com/bullet-train-posters-hq/bullet-train-posters-hq-3/"
+          alt="Image 4"
+          class="photo"
+      /></a>
+      <a href="https://www.imdb.com/title/tt11866324/?ref_=ttls_li_tt"
+        ><img
+          src="https://m.media-amazon.com/images/M/MV5BMDBlMDYxMDktOTUxMS00MjcxLWE2YjQtNjNhMjNmN2Y3ZDA1XkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_.jpg"
+          alt="Image 5"
+          class="photo"
+      /></a>
+      <a href="https://www.imdb.com/title/tt1464335/?ref_=ttls_li_tt"
+        ><img
+          src="https://pbs.twimg.com/media/FJ5jI3YXMAMPxxI?format=jpg&name=900x900"
+          alt="Image 6"
+          class="photo"
+      /></a>
+      <a href="https://www.imdb.com/title/tt0361748/?ref_=nv_sr_srsg_0"
+        ><img
+          src="https://c8.alamy.com/comp/BGMFHB/inglourious-basterds-year-2009-usa-director-quentin-tarantino-christophe-BGMFHB.jpg"
+          alt="Image 7"
+          class="photo"
+      /></a>
+
+	</div>
+    <footer class="footer">
+<h1>About</h1>
+<p>We're a team of movie enthusiasts who aim to help you discover new films you'll love.  Welcome to our movie recommendation website!<br>
+  This site does not store any files on our server, we have only linked the films to the IMDB site.</p>  </footer>
+</body>
+</html>

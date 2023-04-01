@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>●Developer's Choices</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+    body {
+      background-image: url("https://live.staticflickr.com/7430/9962005676_8b27125b35_b.jpg");
+      background-size: cover;
+      backdrop-filter: blur(5px);
+    }
+
+    
+    .photo-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 2fr);
+      grid-gap: 30px;
+    }
+
+    .photo {
+      display: block;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      opacity: 1;
+      transition: opacity 0.2s ease-in-out;
+    }
+
+    .photo:hover {
+      opacity: 0.7;
+      transform: scale(1.1);
+      transition: transform 0.2s ease;
+    }
+
+    .navbar {
+      overflow: hidden;
+      background-color: #000000;
+      display: flex;
+      justify-content: space-between;
+      font-family: "Open Sans", sans-serif;
+    }
+
+    .navbar a {
+      float: left;
+      font-size: 16px;
+      color: white;
+      text-align: center;
+      padding: 2% 16px;
+      text-decoration: none;
+      color: antiquewhite;
+
+    }
+
+    .dropdown {
+      float: left;
+      overflow: hidden;
+      color: antiquewhite;
+      padding-top: 3%;
+
+    }
+
+    .dropdown .dropbtn {
+      font-size: 16px;
+      border: none;
+      outline: none;
+      color: white;
+      padding: 14px 16px;
+      background-color: inherit;
+      margin: 0;
+      color: antiquewhite;
+    }
+
+    .dropdown:hover .dropbtn {
+      background-color: rgb(0, 0, 0);
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  </style>
+  <body>
+    <div class="bg"></div>
+    <div class="navbar">
+      <img
+        src="https://i.imgur.com/z7ITVrS.png"
+        alt="logo"
+        width="100px"
+        height="90px"
+      />
+      <a href="index.html"><strong>Cinema Savvy</strong></a>
+      <div class="dropdown">
+        <button class="dropbtn">
+          <strong>Genres</strong>
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="Horror.html">Horror</a>
+          <a href="Romance.html">Romance</a>
+          <a href="War.html">War</a>
+          <a href="Action.html">Action</a>
+          <a href="Comedy.html">Comedy</a>
+        </div>
+      </div>
+    </div>
+    <h3 style="font-family:courier; color: white;"><center>‎ </center></h3><!--The code ‎ is for invisible -->
+    <div class="photo-grid">
+      <a href="https://www.imdb.com/title/tt6710474/?ref_=nv_sr_srsg_5"
+        ><img
+          src="https://i.pinimg.com/236x/a5/ff/b0/a5ffb09e427e17512e774ac428749b83.jpg"
+          alt="Image 1"
+          class="photo"
+      /></a>
+      <a href="https://www.imdb.com/title/tt6751668/?ref_=nv_sr_srsg_0"
+        ><img
+          src="https://i.pinimg.com/236x/30/a2/cb/30a2cbc7830110cd118272af60923148.jpg"
+          alt="Image 2"
+          class="photo"
+      /></a>
+      <a href="https://www.imdb.com/title/tt7286456/plotsummary/"
+        ><img
+          src="https://i.pinimg.com/236x/99/f8/70/99f8702093bd74454c4636a33f558c4a.jpg"
+          alt="Image 3"
+          class="photo"
+      /></a>
+      <a href="https://www.imdb.com/title/tt7286456/?ref_=nv_sr_srsg_0"
+        ><img
+          src="https://i.pinimg.com/236x/cf/c8/99/cfc899bbb210026bcb64c32ce80dd9ac.jpg"
+          alt="Image 4"
+          class="photo"
+      /></a>
+      <a href="https://www.imdb.com/title/tt0137523/?ref_=nv_sr_srsg_0"
+        ><img
+          src="https://i.pinimg.com/236x/f8/53/de/f853deaf53762d67e79332f0e923482a.jpg"
+          alt="Image 5"
+          class="photo"
+      /></a>
+      <a href="https://www.imdb.com/title/tt1913273/"
+        ><img
+          src="https://wallpapers.com/images/hd/menma-and-the-squad-anohana-slwgdzieowjw90lh.jpg"
+          alt="Image 6"
+          class="photo"
+      /></a>
+      <a href="https://www.imdb.com/title/tt4633694/?ref_=nv_sr_srsg_0"
+        ><img
+          src="https://i.pinimg.com/564x/74/64/09/7464094eed0a4c23e94ef63aa34e011b.jpg"
+          alt="Image 7"
+          class="photo"
+      /></a>
+      <a href="https://www.imdb.com/title/tt2013293/?ref_=nv_sr_srsg_0"
+        ><img
+          src="https://i.pinimg.com/564x/d1/e4/ba/d1e4ba4703fe8780108dba3ff6b7f38e.jpg"
+          alt="Image 8"
+          class="photo"
+      /></a>
+      <a href="https://www.imdb.com/title/tt1187043/?ref_=fn_al_tt_1"
+        ><img
+          src="https://i.pinimg.com/564x/19/6b/1d/196b1df28715b7757c1d6041f02556c4.jpg"
+          alt="Image 9"
+          class="photo"
+      /></a>
+      <a href="https://www.imdb.com/title/tt4769824/?ref_=nv_sr_srsg_0"
+        ><img
+          src="https://i.pinimg.com/564x/92/0a/86/920a86c109ef5f3533973d5ea701ced8.jpg"
+          alt="Image 10"
+          class="photo"
+      /></a>
+    </div>
+  </body>
+</html>
